@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Timer"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/timerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="10:30"
+        android:textSize="100sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/cancelBtn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/timerText"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/white"
+        android:background="@drawable/cancel_btn_selector"
+        android:text="@string/btn_cancel"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/actionBtn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:textColor="@color/darkGreen"
+        android:layout_below="@id/timerText"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/resume_btn_bg"
+        android:text="@string/btn_new"
+        android:textAllCaps="false" />
+
+</RelativeLayout>

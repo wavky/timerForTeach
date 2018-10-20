@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Timer</string>
+    <string name="username">huang</string>
+    <string name="password">123</string>
+
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_new">New</string>
+    <string name="btn_pause">Pause</string>
+    <string name="btn_Resume">Resume</string>
+</resources>
